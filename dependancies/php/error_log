@@ -1,0 +1,215 @@
+[14-Apr-2016 16:09:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'beetest_beeTestdb.samples' doesn't exist' in /home/beetest/public_html/dependancies/php/record.php:22
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 22
+[24-May-2016 02:09:47 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/beetest/public_html/dependancies/php/record.php on line 201
+[24-May-2016 02:13:46 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 20
+[24-May-2016 02:14:44 America/Chicago] PHP Warning:  include(SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:14:44 America/Chicago] PHP Warning:  include(SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:14:44 America/Chicago] PHP Warning:  include(): Failed opening 'SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:14:44 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 02:15:47 America/Chicago] PHP Warning:  include(/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:15:47 America/Chicago] PHP Warning:  include(): Failed opening '/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:15:47 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 02:16:05 America/Chicago] PHP Warning:  include(/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:16:05 America/Chicago] PHP Warning:  include(): Failed opening '/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:16:05 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 02:24:06 America/Chicago] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/beetest/public_html/dependancies/models/baseModel.php on line 18
+[24-May-2016 02:29:16 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/beetest/public_html/dependancies/php/record.php on line 28
+[24-May-2016 02:36:51 America/Chicago] PHP Fatal error:  Cannot access protected property SamplesModel::$connection in /home/beetest/public_html/dependancies/php/record.php on line 28
+[24-May-2016 02:37:45 America/Chicago] PHP Fatal error:  Call to undefined method SamplesModel::prepare() in /home/beetest/public_html/dependancies/php/record.php on line 28
+[24-May-2016 02:39:31 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:39:31 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:39:31 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:39:31 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 02:41:15 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:41:15 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:41:15 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 02:41:15 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 03:11:11 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:11 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:11 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:11 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 03:11:16 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:16 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:16 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:11:16 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 03:14:10 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:14:10 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:14:10 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 03:14:10 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 04:52:44 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:52:44 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:52:44 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:52:44 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 04:58:26 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:58:26 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:58:26 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:58:26 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 04:59:43 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:43 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:43 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:43 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 04:59:48 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:48 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:48 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 04:59:48 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 05:00:46 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 05:00:46 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 05:00:46 America/Chicago] PHP Warning:  include(): Failed opening 'dependancies/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 05:00:46 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:21:27 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:27 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:27 America/Chicago] PHP Warning:  include(): Failed opening 'dependancies/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:27 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:21:37 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:37 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:37 America/Chicago] PHP Warning:  include(): Failed opening 'dependancies/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:21:37 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:23:02 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:02 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:02 America/Chicago] PHP Warning:  include(): Failed opening 'dependancies/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:02 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:23:28 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:28 America/Chicago] PHP Warning:  include(dependancies/models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:28 America/Chicago] PHP Warning:  include(): Failed opening 'dependancies/models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:23:28 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:24:18 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:24:18 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:24:18 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:24:18 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:33:13 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:33:13 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:33:13 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:33:13 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:39:11 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:39:11 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:39:11 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:39:11 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 07:40:35 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:40:35 America/Chicago] PHP Warning:  include(models/SamplesModel.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:40:35 America/Chicago] PHP Warning:  include(): Failed opening 'models/SamplesModel.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 5
+[24-May-2016 07:40:35 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 13:20:41 America/Chicago] PHP Fatal error:  Class 'SamplesModel' not found in /home/beetest/public_html/dependancies/php/record.php on line 21
+[24-May-2016 13:22:01 America/Chicago] PHP Fatal error:  Call to undefined function prepare() in /home/beetest/public_html/dependancies/php/record.php on line 44
+[24-May-2016 13:22:59 America/Chicago] PHP Fatal error:  Call to undefined function prepare() in /home/beetest/public_html/dependancies/php/record.php on line 44
+[24-May-2016 13:23:05 America/Chicago] PHP Fatal error:  Call to undefined function prepare() in /home/beetest/public_html/dependancies/php/record.php on line 44
+[24-May-2016 14:46:31 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/beetest/public_html/dependancies/php/record.php on line 72
+[24-May-2016 14:48:01 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/beetest/public_html/dependancies/php/record.php on line 172
+[24-May-2016 15:21:14 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/beetest/public_html/dependancies/php/record.php on line 49
+[24-May-2016 17:36:43 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/beetest/public_html/dependancies/php/record.php on line 49
+[24-May-2016 17:59:55 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/beetest/public_html/dependancies/php/record.php on line 51
+[24-May-2016 18:32:21 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/beetest/public_html/dependancies/php/record.php on line 51
+[24-May-2016 18:58:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[24-May-2016 19:00:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[24-May-2016 19:03:25 America/Chicago] PHP Warning:  include(/../header.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[24-May-2016 19:03:25 America/Chicago] PHP Warning:  include(): Failed opening '/../header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 4
+[24-May-2016 19:03:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[24-May-2016 19:04:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[24-May-2016 19:17:57 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[24-May-2016 19:18:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[25-May-2016 08:56:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/beetest/public_html/dependancies/php/record.php:33
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 33
+[25-May-2016 13:09:32 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:09:32 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:09:32 America/Chicago] PHP Warning:  include(): Failed opening '../../footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:23 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:23 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:23 America/Chicago] PHP Warning:  include(): Failed opening '../../footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:26 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:26 America/Chicago] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 13:10:26 America/Chicago] PHP Warning:  include(): Failed opening '../../footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/beetest/public_html/dependancies/php/record.php on line 4
+[25-May-2016 14:45:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'strtoupper' (T_STRING), expecting ',' or ';' in /home/beetest/public_html/dependancies/php/record.php on line 85
+[25-May-2016 14:45:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'strtoupper' (T_STRING), expecting ',' or ';' in /home/beetest/public_html/dependancies/php/record.php on line 85
+[25-May-2016 15:44:13 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 28
+[25-May-2016 15:44:27 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 28
+[25-May-2016 16:07:00 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 29
+[25-May-2016 16:07:56 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 29
+[25-May-2016 16:08:48 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 29
+[25-May-2016 16:09:46 America/Chicago] PHP Fatal error:  Call to undefined function ech() in /home/beetest/public_html/dependancies/php/record.php on line 29
+[25-May-2016 17:23:45 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/beetest/public_html/dependancies/php/record.php on line 31
+[25-May-2016 17:24:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/beetest/public_html/dependancies/php/record.php on line 20
+[25-May-2016 17:51:19 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/beetest/public_html/dependancies/php/record.php on line 20
+[25-May-2016 18:13:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:14:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:14:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:20:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS month, DAY(collection_date) AS day, COUNT(*) AS count FROM samples WHERE YEAR' at line 1' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:20:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS month, DAY(collection_date) AS day, COUNT(*) AS count FROM samples WHERE YEAR' at line 1' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:22:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS month, DAY(collection_date) AS day, COUNT(*) AS count FROM samples WHERE YEAR' at line 1' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:22:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'colleciton_date' in 'field list'' in /home/beetest/public_html/dependancies/php/record.php:16
+Stack trace:
+#0 /home/beetest/public_html/dependancies/php/record.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/beetest/public_html/dependancies/php/record.php on line 16
+[25-May-2016 18:22:57 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:23:19 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:23:58 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:24:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:24:04 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:24:58 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:25:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:26:55 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:27:59 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 18:28:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[25-May-2016 20:36:07 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/beetest/public_html/dependancies/php/record.php on line 21
+[27-May-2016 02:36:04 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[27-May-2016 02:38:44 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[27-May-2016 02:38:49 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[27-May-2016 02:41:18 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[27-May-2016 02:42:17 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[27-May-2016 17:27:19 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[28-May-2016 00:51:12 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[28-May-2016 01:19:28 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17
+[31-May-2016 15:13:47 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/beetest/public_html/dependancies/php/record.php on line 17

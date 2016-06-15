@@ -1,0 +1,51 @@
+/*Styiing sheet used for db on admin page*/
+/*#bee {
+	/*darkest color of the pooh pallete*/
+   /*color: #740724;
+  
+}*/
+
+
+.beehive
+{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.beehive thead
+{
+	/*rusty orange color in pooh pallete*/
+    background-color: #D97112;
+}
+
+
+
+.beehive a
+{
+    background-color: #740724;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: none;
+    width:50px;
+    font-size: 12pt;
+    font-weight: 5pt;
+}
+
+.beehive th{
+	font-size: 16px;
+	font-style: bold;
+	padding-top: 5%;
+
+}
+
+.beehive table{
+  border-color: #740724;
+
+}
+
+/*  font-size: 10pt;
+  background-color:#d97112;
+  color:#740724;
+  width: 200px;
+}*/
